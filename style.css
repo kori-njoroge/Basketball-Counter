@@ -82,3 +82,12 @@ span{
     margin-left: 21%;
     line-height: 40px;
 }
+#leadingTeam{
+    margin-left: 6%;
+    color: rgb(71, 245, 71);
+}
+
+#diff{
+    margin-left: 2%;
+    color: rgb(71, 245, 71);
+}
