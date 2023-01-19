@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball counter</title>
+</head>
+<body>
+    <main class="body">
+        <h1 class="title">Basketball Counter</h1>
+        <div class="container">
+        <div class="scoreContainer">
+            <h1>Home</h1>
+            <p id="homeScreen">0</p>
+            <div class="operations">
+                <button onclick="addHome1()">+1</button>
+                <button onclick="addHome2()">+2</button>
+                <button onclick="addHome3()">+3</button>
+            </div>
+        </div>
+        <div class="scoreContainer">
+            <h1>Guest</h1>
+            <p id="guestScreen">0</p>
+            <div class="operations">
+                <button onclick="addGuest1()">+1</button>
+                <button onclick="addGuest2()">+2</button>
+                <button onclick="addGuest3()">+3</button>
+            </div>
+        </div>
+        </div>
+        <button class="reset" id="reset" onclick="reset()">Reset Scores</button>
+        <span id="leadingTeam">Leading Team :</span><br>
+        <span id="diff">Points Difference:</span>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
